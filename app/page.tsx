@@ -4,7 +4,7 @@ export default function Home() {
       <div className="w-full min-h-screen">
         <div className="bg-white overflow-hidden min-h-screen flex flex-col">
           {/* Header */}
-          <div className="bg-linear-to-br from-slate-50 to-blue-50 border-b border-blue-200 px-8 lg:px-16 py-10 lg:py-12 relative">
+          <div className="bg-linear-to-br from-slate-50 to-blue-50 border-b border-blue-200 px-8 lg:px-16 py-10 lg:py-10 relative">
             {/* Subtle decorative element */}
             <div className="absolute top-0 right-0 w-32 h-32 bg-blue-100 rounded-full opacity-20 transform translate-x-16 -translate-y-16"></div>
 
@@ -16,12 +16,6 @@ export default function Home() {
                 <h2 className="text-lg lg:text-xl text-blue-700 font-medium mb-3">
                   ΜΟΝΟΠΡΟΣΩΠΗ Ι.Κ.Ε.
                 </h2>
-                <div className="flex items-center space-x-2 text-slate-600">
-                  <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-                  <p className="text-sm lg:text-base font-medium">
-                    Επαγγελματικές Υπηρεσίες Τουρισμού & Ενοικίασης
-                  </p>
-                </div>
               </div>
             </div>
           </div>
