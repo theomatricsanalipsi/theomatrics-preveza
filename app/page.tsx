@@ -1,20 +1,33 @@
 export default function Home() {
   return (
-    <div className="min-h-screen bg-linear-to-br from-blue-50 to-blue-100">
-      <div className="container mx-auto px-4 py-12">
-        <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
+    <div className="min-h-screen">
+      <div className="w-full min-h-screen">
+        <div className="bg-white overflow-hidden min-h-screen flex flex-col">
           {/* Header */}
-          <div className="bg-blue-600 text-white px-8 py-8">
-            <h1 className="text-3xl font-bold mb-2">
-              THEOMETRICS ΑΝΑΛΗΨΗ ΜΟΝΟΠΡΟΣΩΠΗ Ι.Κ.Ε.
-            </h1>
-            <p className="text-blue-100 text-lg">
-              Επαγγελματικές Υπηρεσίες Τουρισμού & Ενοικίασης
-            </p>
+          <div className="bg-linear-to-br from-slate-50 to-blue-50 border-b border-blue-200 px-8 lg:px-16 py-10 lg:py-12 relative">
+            {/* Subtle decorative element */}
+            <div className="absolute top-0 right-0 w-32 h-32 bg-blue-100 rounded-full opacity-20 transform translate-x-16 -translate-y-16"></div>
+
+            <div className="relative z-10">
+              <div>
+                <h1 className="text-2xl lg:text-4xl font-semibold text-slate-800 mb-2 tracking-tight">
+                  THEOMETRICS
+                </h1>
+                <h2 className="text-lg lg:text-xl text-blue-700 font-medium mb-3">
+                  ΑΝΑΛΗΨΗ ΜΟΝΟΠΡΟΣΩΠΗ Ι.Κ.Ε.
+                </h2>
+                <div className="flex items-center space-x-2 text-slate-600">
+                  <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                  <p className="text-sm lg:text-base font-medium">
+                    Επαγγελματικές Υπηρεσίες Τουρισμού & Ενοικίασης
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Company Information */}
-          <div className="px-8 py-8">
+          <div className="px-8 lg:px-16 py-8 grow">
             <div className="grid md:grid-cols-2 gap-8">
               {/* Contact Information */}
               <div>
@@ -156,10 +169,10 @@ export default function Home() {
           </div>
 
           {/* Footer */}
-          <div className="bg-gray-50 px-8 py-4 text-center text-gray-600">
+          <div className="bg-gray-50 px-8 lg:px-16 py-4 text-center text-gray-600">
             <p className="text-sm">
-              © 2024 THEOMETRICS ΑΝΑΛΗΨΗ ΜΟΝΟΠΡΟΣΩΠΗ Ι.Κ.Ε. - Όλα τα δικαιώματα
-              κατοχυρωμένα
+              © {new Date().getFullYear()} THEOMETRICS ΑΝΑΛΗΨΗ ΜΟΝΟΠΡΟΣΩΠΗ
+              Ι.Κ.Ε. - Όλα τα δικαιώματα κατοχυρωμένα
             </p>
           </div>
         </div>
