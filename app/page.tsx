@@ -11,7 +11,7 @@ export default function Home() {
             <div className="relative z-10">
               <div>
                 <h1 className="text-2xl lg:text-4xl font-semibold text-slate-800 mb-2 tracking-tight">
-                  THEOMETRICS ΑΝΑΛΗΨΗ 
+                  THEOMETRICS PREVEZA 
                 </h1>
                 <h2 className="text-lg lg:text-xl text-blue-700 font-medium mb-3">
                   ΜΟΝΟΠΡΟΣΩΠΗ Ι.Κ.Ε.
@@ -43,7 +43,7 @@ export default function Home() {
                     </svg>
                     <div>
                       <p className="font-medium text-gray-800">Διεύθυνση:</p>
-                      <p className="text-gray-600">ΑΝΑΛΗΨΗ ΘΕΡΜΟΥ ΤΚ 30008</p>
+                      <p className="text-gray-600">ΠΡΕΒΕΖΑ ΤΚ 48100</p>
                     </div>
                   </div>
 
@@ -59,10 +59,10 @@ export default function Home() {
                     <div>
                       <p className="font-medium text-gray-800">Email:</p>
                       <a
-                        href="mailto:theomatrics.analipsi@gmail.com"
+                        href="mailto:theomatrics.preveza@gmail.com"
                         className="text-blue-600 hover:text-blue-800"
                       >
-                        theomatrics.analipsi@gmail.com
+                        theomatrics.preveza@gmail.com
                       </a>
                     </div>
                   </div>
@@ -78,7 +78,7 @@ export default function Home() {
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <p className="text-sm font-medium text-gray-600">ΑΦΜ</p>
                     <p className="text-lg font-semibold text-gray-800">
-                      803063307
+                      803041155
                     </p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
@@ -86,7 +86,7 @@ export default function Home() {
                       Αριθμός Γ.Ε.ΜΗ.
                     </p>
                     <p className="text-lg font-semibold text-gray-800">
-                      188502712000
+                      188028249000
                     </p>
                   </div>
                 </div>
@@ -165,7 +165,7 @@ export default function Home() {
           {/* Footer */}
           <div className="bg-gray-50 px-8 lg:px-16 py-4 text-center text-gray-600">
             <p className="text-sm">
-              © {new Date().getFullYear()} THEOMETRICS ΑΝΑΛΗΨΗ ΜΟΝΟΠΡΟΣΩΠΗ
+              © {new Date().getFullYear()} THEOMETRICS PREVEZA ΜΟΝΟΠΡΟΣΩΠΗ
               Ι.Κ.Ε. - Όλα τα δικαιώματα κατοχυρωμένα
             </p>
           </div>
