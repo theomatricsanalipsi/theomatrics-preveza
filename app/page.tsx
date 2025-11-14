@@ -11,7 +11,7 @@ export default function Home() {
             <div className="relative z-10">
               <div>
                 <h1 className="text-2xl lg:text-4xl font-semibold text-slate-800 mb-2 tracking-tight">
-                  THEOMETRICS PREVEZA 
+                  THEOMETRICS PREVEZA
                 </h1>
                 <h2 className="text-lg lg:text-xl text-blue-700 font-medium mb-3">
                   ΜΟΝΟΠΡΟΣΩΠΗ Ι.Κ.Ε.

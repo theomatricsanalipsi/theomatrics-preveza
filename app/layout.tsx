@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "THEOMETRICS ΑΝΑΛΗΨΗ",
-  description: "THEOMETRICS ΑΝΑΛΗΨΗ",
+  title: "THEOMETRICS PREVEZA",
+  description: "THEOMETRICS PREVEZA",
 };
 
 export default function RootLayout({
